@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: url('images/bg2_2.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    color: #E01953;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h1 {
+    margin-left: 50px;
+    font-family: 'Cherry Cream Soda', cursive;
+}
+
+h3 {
+    margin-left: 50px;
+}
+
+
+#info {
+    margin-top: 20%;
+    width: 100%;
+    padding: 15px;
+    background-color: none;
+    border: 3px solid #E01953;
+    box-shadow: 5px 10px 8px #888888;
+    background-color: rgba(255, 255, 255, .7);
+}
+
+ul {
+    list-style-type: none;
+    margin-top: 50px;
+    text-align: center;
+    padding-left: 0;
+    font-size: .7em;
+}
+
+li {
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+@media only screen and (min-width:769px) {
+    ul {
+        list-style-type: none;
+        margin-top: 50px;
+        font-size: 1em;
+    }
+
+    li {
+        display: inline;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+ul a:hover {
+    text-shadow: 0 0 3px #FF0000;
+}
+
+a:link {
+    color: #E01953;
+}
+
+a:visited {
+    color: #c73a62;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+
+}
+
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+}
+
+/* Desktop Version */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}

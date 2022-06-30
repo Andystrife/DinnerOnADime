@@ -1,0 +1,357 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    background: url('images/bg2_2.jpg') no-repeat center fixed;
+    background-size: cover;
+}
+
+body {
+    color: #E01953;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 0;
+}
+
+h1 {
+    padding-left: 20px;
+}
+
+h1, h3 {
+    font-family: 'Cherry Cream Soda', cursive;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link {
+    color: #E01953;
+}
+
+a:visited {
+    color: #c73a62;
+}
+
+
+
+ul a:hover {
+    text-shadow: 0 0 3px #FF0000;
+}
+
+ul {
+    position: absolute;
+    list-style-type: none;
+    margin-top: 10px;
+    padding-left: 38px;
+    display: inline;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#desc {
+    margin-top: 20%;
+    margin-left: 10%;
+    width: 75%;
+    background-color: rgba(255, 255, 255, .7);
+    left: 10%;
+    top: 25%;
+    border: 3px solid #E01953;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#about_desc {
+    color: black;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#container {
+    width: 100%;
+    background-color: rgba(255, 255, 255, .4);
+}
+
+
+
+
+#about_pic {
+    margin-top: 50px;
+    width: 100%;
+    height: 350px;
+    background-color: rgba(176, 243, 159, 0.8);
+    border-top: 2px solid #E01953;
+    border-bottom: 2px solid #E01953;
+}
+
+
+
+#title {
+    margin-bottom: 0;
+}
+
+
+
+#instagram {
+
+    height: 25px;
+    width: 25px;
+}
+
+#emailtop {
+    height: 25px;
+    width: 37.5px;
+
+}
+
+#pic_center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    height: 250px;
+    width: 250px;
+    border-radius: 30%;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+#contact a {
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: .75em;
+}
+
+#form {
+    display: block;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+    background-color: rgba(176, 243, 159, 0.8);
+    border-top: 2px solid #E01953;
+    border-bottom: 2px solid #E01953;
+}
+
+
+
+fieldset {
+    width: 50%;
+    display: inline-block;
+    margin: 10px auto;
+    border: 2px #E01953 solid;
+}
+
+#contact_form {
+    display: inline-block;
+    text-align: left;
+}
+
+legend {
+    font-size: 1.5em;
+}
+
+
+
+
+h3 {
+    padding-left: 5%;
+    padding-top: 10px;
+}
+
+#email {
+    text-align: center;
+}
+
+.about {
+    margin-top: 25px;
+    width: 100%;
+    background-color: rgba(176, 243, 159, 0.8);
+
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.pic_card {
+    height: 185px;
+    width: 111px;
+    box-shadow: 5px 10px 8px #888888;
+    border: 6px solid #E01953;
+    display: inline-block;
+    margin: 0 10px 0 10px;
+}
+
+.card_desc {
+    font-size: .75em;
+    text-align: center;
+}
+
+.pic {
+    width: 100px;
+    height: 112px;
+    border-bottom: 1px solid #E01953;
+}
+
+
+
+
+@media only screen and (min-width:769px) {
+
+    #about_pic {
+        margin-top: 50px;
+        width: 100%;
+        height: 350px;
+        background-color: rgba(176, 243, 159, 0.4);
+        border-top: 2px solid #E01953;
+        border-bottom: 2px solid #E01953;
+    }
+
+    #form {
+        display: block;
+        text-align: center;
+        margin-top: 50px;
+        width: 100%;
+        background-color: rgba(176, 243, 159, 0.4);
+        border-top: 2px solid #E01953;
+        border-bottom: 2px solid #E01953;
+    }
+
+    #contact a {
+        padding-left: 20px;
+        padding-right: 20px;
+        font-size: 1em;
+    }
+
+    .about {
+        margin-top: 25px;
+        width: 100%;
+        height: 375px;
+        background-color: rgba(176, 243, 159, 0.4);
+
+    }
+
+    .row {
+        width: 93%;
+        padding-top: 25px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pic_card {
+        min-height: 290px;
+        min-width: 200px;
+        box-shadow: 5px 10px 8px #888888;
+        border: 6px solid #E01953;
+        display: inline-block;
+        margin: 0 10px 0 10px;
+    }
+
+    .card_desc {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .pic {
+        width: 100%;
+        height: 215px;
+        border-bottom: 1px solid #E01953;
+    }
+}
+
+@media only screen and (max-width:1350px) and (min-width:769px) {
+    .pic_card {
+        min-height: 220px;
+        min-width: 130px;
+        box-shadow: 5px 10px 8px #888888;
+        border: 6px solid #E01953;
+        display: inline-block;
+        margin: 0 10px 0 10px;
+    }
+
+    .pic {
+        width: 100%;
+        height: 145px;
+        border-bottom: 1px solid #E01953;
+    }
+
+    .card_desc {
+        font-size: .75em;
+        text-align: center;
+    }
+}
+
+
+[class*="col-"] {
+    float: left;
+}
+
+/* Desktop Version */
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 768px) {
+
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+}
